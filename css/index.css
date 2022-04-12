@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(to bottom right, black, #ffb200);
+    background-repeat: no-repeat;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+header {
+        margin-top: 3px;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 10px;
+}
+
+span {
+    color: yellow;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+        margin-top: 10px;
+        height: 10px;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+}
+
+form [type="submit"] {
+        height: 50px;
+        width: 50%;
+        font-weight: bold;
+}
+
+form [type="submit"]:hover {
+        cursor: pointer;
+}
+
+#checkbox {
+        display: inline-block;
+}
+
+
+
+.imagem {
+    width: 500px;
+    margin-right: 100px;
+}
+
+footer {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
